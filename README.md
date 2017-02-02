@@ -9,15 +9,15 @@ I primarily use this tool as a Nagios plugin to allow Nagios to send alerts to a
 
 * Modify the code to include the token from your Cisco Sparkbot
 ``` python
-obolus = "Bearer <Your Bot Token Here>"
+bearer = "Bearer <Your Bot Token Here>"
 ```
 * From the Command Line run NagiosPlugin-CmdLine_Bot.py like the following (infoArg1 will be message passed to the Spark room):
-```
-python /your/location/NagiosPlugin-CmdLine_Bot.py -r <Spark Room ID> -m <infoArg1>
+``` shell
+python /your/location/ChatOps_CmdLineBot.py -r <Spark Room ID> -m <infoArg1>
 ```
 * You can also run the command with more than one informational argument passed to Spark
-``` 
-python /your/location/NagiosPlugin-CmdLine_Bot.py -r <Spark Room ID> -m <infoArg1> <infoArg2> <infoArg3> <infoArgXX>
+``` shell
+python /your/location/ChatOps_CmdLineBot.py -r <Spark Room ID> -m <infoArg1> <infoArg2> <infoArg3> <infoArgXX>
 ```
 
 Please let me know if you have any questions.
