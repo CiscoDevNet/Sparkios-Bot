@@ -30,7 +30,7 @@ def main():
         now = dt.datetime.now()
         bearer = "Bearer <Your Bot Token Here>"
         alerts = ''
-        cmd_message = 'SparkAPI_NagiosTest.py -r <roomID_Here> -m <PassErrorMessageHere and pass as many arguments after -m as you like>'
+        cmd_message = 'ChatOps_CmdLineBot.py -r <roomID_Here> -m <PassErrorMessageHere and pass as many arguments after -m as you like>'
 
         #Command line Argument Parsing Section
         try:
